@@ -1,0 +1,37 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="General"
+        app:enabled="false">
+
+        <EditTextPreference
+            app:key="appname"
+            app:title="Custom app name"
+            app:useSimpleSummaryProvider="true" />
+
+        <ListPreference
+            app:defaultValue="theme"
+            app:entries="@array/theme_entires"
+            app:entryValues="@array/reply_values"
+            app:key="theme"
+            app:title="Choose app theme"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Alarm Reminder"
+        app:enabled="false">
+
+        <SwitchPreferenceCompat
+            app:key="reminder"
+            app:title="Timetable Alarm reminder" />
+
+        <SwitchPreferenceCompat
+            app:dependency="reminder"
+            app:key="earlyAlarm"
+            app:summaryOff="Notify 5 minutes before time disabled"
+            app:summaryOn="Notify 5 minutes before time enabled"
+            app:title="Notify me 5 minutes before class" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

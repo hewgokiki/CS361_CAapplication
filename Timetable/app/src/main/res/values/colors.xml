@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightGrey">#E3E3E3</color>
+    <color name="background_color">#e5e5e5</color>
+    <color name="accent">#6200EE</color>
+
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">@color/colorMain</color>
+    <color name="colorAccent">#6200EE</color>
+
+    <color name="colorHeader">#fcfcfc</color>
+    <color name="colorHeaderText">#7d7d7d</color>
+    <color name="colorTableItem">#efefef</color>
+
+    <color name="colorMain">#74a4f3</color>
+    <color name="colorWeakBlack">#4f4f4f</color>
+
+    <string-array name="default_sticker_color">
+        <item>#f08676</item>
+        <item>#ecc369</item>
+        <item>#a7ca70</item>
+        <item>#7dd1c1</item>
+        <item>#7aa5e9</item>
+        <item>#fbaa68</item>
+        <item>#9f86e1</item>
+        <item>#78cb87</item>
+        <item>#d397ed</item>
+    </string-array>
+
+    <color name="default_side_header_font_color">#7d7d7d</color>
+    <color name="default_header_font_color">#7d7d7d</color>
+    <color name="default_header_highlight_font_color">#ffffff</color>
+    <color name="default_header_highlight_color">#74a4f3</color>
+    <color name="default_sticker_font_color">#ffffff</color>
+
+</resources>
